@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="datetime">
+      <p id="current-date"></p>
+      <p id="current-time"></p>
+    </div>
+    
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="result-section">
+      <h2>Computer Choice: <span id="computer-choice"></span></h2>
+      <h2>User Choice: <span id="user-choice"></span></h2>
+      <h2>Result: <span id="result"></span></h2>
+    </div>
+
+    <div class="buttons">
+      <button id="rock">🪨 Rock</button>
+      <button id="paper">📄 Paper</button>
+      <button id="scissors">✂️ Scissors</button>
+      <button id="reset">🔄 Reset</button>
+    </div>
+
+    <div class="stats">
+      <div class="row">
+        <p class="win">Wins: <span id="wins">0</span></p>
+        <p class="loss">Losses: <span id="losses">0</span></p>
+        <p class="draw">Draws: <span id="draws">0</span></p>
+      </div>
+      <div class="row">
+        <p>Total Games Played: <span id="total-games">0</span></p>
+        <p>Time Played: <span id="time-spent">0</span> seconds</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" charset="UTF-8"></script>
+</body>
+</html>
